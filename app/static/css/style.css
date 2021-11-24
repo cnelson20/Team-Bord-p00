@@ -1,0 +1,20 @@
+/* 
+	Team Lonely - Cameron Nelson, Kevin Cao, Z Zhang
+	Softdev Pd 2
+	K20 stuyling
+	2021-11-24
+*/
+
+.verticalflex {
+	display: flex;
+	flex-direction: column;
+	align-content:center;
+	background-color:#B7E3CC;
+	position:fixed;
+	top:0%;
+	height:100%;
+	left:0%;
+	width:100%;
+	text-align:center;
+	font-family:Calibri;
+	font-size:1em;

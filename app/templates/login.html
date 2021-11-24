@@ -5,15 +5,22 @@ SoftDev
 P00: Login Page
 2021-10-30
 -->
-
+<!--
+	Team Lonely - Cameron Nelson, Kevin Cao, Z Zhang
+	Softdev Pd 2
+	K20 stuyling
+	2021-11-24
+-->
 
  <html>
 
    <head>
+     <link rel="stylesheet" href="/static/css/style.css">
      <title> LOGIN PAGE </title>
    </head>
 
    <body>
+	 <div class="verticalflex">
      <h1>
        Welcome to Bord's Weblog Hosting Site!
        <br>
@@ -21,7 +28,7 @@ P00: Login Page
        <br>
        {{message}}
      </h1>
-
+     
      <h3>
        Enter your username and password below to proceed to your personal blog page.
      </h3>
@@ -33,10 +40,13 @@ P00: Login Page
        <input type="submit" name="sub1">
      </form>
      <br>
+	 <div>
      If this is your first time joining us, please register by clicking the button below!
     <form action="register" method="POST">
       <input type="submit" name="reg1" value="Register">
+	</div>
     </form>
+	</div>
    </body>
 
  </html>
